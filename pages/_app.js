@@ -47,7 +47,6 @@ const GlobalStyle = createGlobalStyle`
 const Inner = styled.div`
   margin: auto;
   max-width: 1100px;
-  margin-bottom: 80px;
 `;
 function MyApp({ Component, pageProps }) {
   return (
