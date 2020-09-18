@@ -4,7 +4,12 @@ const HomeStyles = styled.div`
   padding: 2rem;
   position: absolute;
   margin-bottom: 80px;
-
+  h2 {
+      padding: 0 1rem;
+      margin: 1rem;
+      font-size: 2.5rem;
+      color: ${props => props.theme.blue}
+    }
   .container {
     max-width: 1100px;
     display: grid;
@@ -20,6 +25,7 @@ const HomeStyles = styled.div`
       span {
         color: ${props => props.theme.blue}
       }
+    
     }
   }
   .img-container {

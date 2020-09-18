@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head';
 import WorkStyles from './styles/WorkStyles';
 import dustin from "../public/img/PNG/DLAltickScreen.png";
 import lisa from "../public/img/PNG/LisaScreen.png";
@@ -8,6 +9,12 @@ import payton from "../public/img/PNG/PGScreen.png";
 
 const Work = () => {
   return (
+    <>
+    <Head>
+      <title>
+        Work | Payton Green
+      </title>
+    </Head>
     <WorkStyles>
       <div className="example1">
         <img src={dustin} alt="" />
@@ -53,6 +60,7 @@ const Work = () => {
       </div>
       <h2>...And More On The Way!</h2>
     </WorkStyles>
+    </>
   );
 };
 
