@@ -1,5 +1,7 @@
 import React from "react";
+
 import HomeStyles from "./styles/HomeStyles";
+
 import image from "../public/img/Payton.jpg";
 
 function Home() {
@@ -7,9 +9,9 @@ function Home() {
     <HomeStyles>
       <div className="container">
         <div className="text">
-          <p>Hey y'all,</p>
+          <h2>Hey y'all!</h2>
           <p>
-            Thanks for visiting. I'm Payton Green, a web developer here in
+            Thanks for visiting! I'm Payton Green, a web developer here in
             Austin, TX.
           </p>
           <p>

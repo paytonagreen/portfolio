@@ -8,6 +8,10 @@ const NavStyles = styled.nav`
   text-decoration: none;
   max-width: 1100px;
   padding: 1.5rem;
+  @media(max-width: 700px) {
+    justify-content: center;
+    padding: 1rem;
+  }
   h1 {
     margin: 0;
     font-size: 4rem;
@@ -17,6 +21,9 @@ const NavStyles = styled.nav`
     display: flex;
     list-style: none;
     font-size: 2rem;
+    @media(max-width: 700px) {
+      display: none;
+    }
     li {
       padding-left: 2rem;
 
