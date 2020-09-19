@@ -24,9 +24,17 @@ const NavStyles = styled.nav`
     @media(max-width: 700px) {
       display: none;
     }
+    li.active {
+        border-bottom: 2px solid ${props => props.theme.blue};
+      }
     li {
-      padding-left: 2rem;
-
+      margin-left: 2rem;
+      border-bottom: 2px solid transparent;
+      transition: all 1.5s ease-out;
+      
+      &:hover {
+        border-bottom: 2px solid ${props => props.theme.lightblue};
+      }
     }
   }
 `;

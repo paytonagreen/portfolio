@@ -12,6 +12,10 @@ const WorkStyles = styled.div`
   .example1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.03);
+    @media(min-width: 1100px) {
+      border-left: 1px solid rgba(0, 0, 0, .15)
+    }
     @media (max-width: 1000px) {
       grid-template-columns: 1fr;
     }
@@ -53,6 +57,10 @@ const WorkStyles = styled.div`
   .example2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.03);
+    @media(min-width: 1100px) {
+      border-left: 1px solid rgba(0, 0, 0, .15)
+    }
     @media (max-width: 1000px) {
       grid-template-columns: 1fr;
     }
