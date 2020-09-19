@@ -18,6 +18,11 @@ const FooterStyles = styled.footer`
     width: 6rem;
     margin: 0 1rem;
   }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export default FooterStyles;
