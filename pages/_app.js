@@ -14,12 +14,8 @@ const theme = {
 };
 
 const GlobalStyle = createGlobalStyle`
-@font-face{
-  font-family: 'Syne';
-  src: url('https://fonts.gstatic.com/s/syne/v1/8vIS7w4qzmVxsWxjBZRjr0FKM_04uQ6tTY_9CQ.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+  
+
   html {
     box-sizing: border-box;
     font-size: 10px;
@@ -33,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-size: 1.5rem;
     line-height: 2;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Syne';
     list-style: none;
   }
   a,
