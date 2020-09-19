@@ -32,7 +32,7 @@ const Work = () => {
       </div>
       <div className="example2">
         <div className="content">
-          <a target="blank" href="http://paytongreen.com">
+          <a target="blank" href="http://lisa-alley.paytongreen.com">
             <h1>Lisa Alley Store</h1>
           </a>
           <p>Full-Stack E-commerce App:</p>
