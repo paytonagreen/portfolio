@@ -9,7 +9,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-max-height: 30vh;
+max-height: 40vh;
 background: ${(props) => props.theme.blue};
 position: absolute;
 top: 0;
