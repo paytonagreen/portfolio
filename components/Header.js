@@ -21,7 +21,7 @@ const Header = () => {
         {!burgerOpen && 'MENU'}
         {burgerOpen && `CLOSE`}
       </BurgerButton>
-      <BurgerMenu toggler= {toggler} setToggler={setToggler} open={burgerOpen}/>
+      <BurgerMenu toggler={toggler} setToggler={setToggler} open={burgerOpen}/>
       <Nav/>
     </HeaderStyles>
   )
