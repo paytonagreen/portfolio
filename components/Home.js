@@ -19,7 +19,7 @@ function Home() {
             effortless <span>JavaScript-based UX/UI</span> solutions, primarily
             with <span>React </span>
             and <span>Apollo </span> - but I enjoy working server-side as
-            well. I welcome opportunities to embrace it all: new languages, new
+            well (especially with <span>Node</span> and <span>Ruby On Rails</span>). I welcome opportunities to embrace it all: new languages, new
             frameworks, new problems, <span>new solutions</span>!
           </p>
           <p>

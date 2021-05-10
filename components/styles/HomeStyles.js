@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
 const HomeStyles = styled.div`
+  min-height: 100vh;
   padding: 2rem;
   position: absolute;
-  margin-bottom: 80px;
   h2 {
-      padding: 0 1rem;
-      margin: 1rem;
-      font-size: 2.5rem;
-      color: ${props => props.theme.blue}
-    }
+    padding: 0 1rem;
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: ${(props) => props.theme.blue};
+  }
   .container {
     max-width: 1100px;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    @media(max-width: 700px) {
+    @media (max-width: 700px) {
       grid-template-columns: 1fr;
       text-align: left;
     }
@@ -23,9 +23,8 @@ const HomeStyles = styled.div`
       padding: 0 1rem;
       margin: 1rem;
       span {
-        color: ${props => props.theme.blue}
+        color: ${(props) => props.theme.blue};
       }
-    
     }
   }
   .img-container {
@@ -39,6 +38,9 @@ const HomeStyles = styled.div`
     img {
       border-radius: 40%;
       height: 40vh;
+      @media (max-width: 700px) {
+        margin-bottom: 80px;
+      }
     }
   }
 `;

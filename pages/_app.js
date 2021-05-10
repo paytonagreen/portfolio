@@ -1,21 +1,19 @@
-import "../styles/globals.css";
-import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
-import Meta from "../components/Meta";
-import Header from "../components/Header";
+import '../styles/globals.css';
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import Meta from '../components/Meta';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const theme = {
-  brown: "#A25F08",
-  tan: "#F4E6CC",
-  offwhite: "#FCF5EB",
-  blue: "#2F8CAB",
-  lightblue: "#C9E2E9",
-  vermillion: "#FE4902",
+  brown: '#A25F08',
+  tan: '#F4E6CC',
+  offwhite: '#FCF5EB',
+  blue: '#2F8CAB',
+  lightblue: '#C9E2E9',
+  vermillion: '#FE4902',
 };
 
 const GlobalStyle = createGlobalStyle`
-  
-
   html {
     box-sizing: border-box;
     font-size: 10px;
@@ -54,7 +52,7 @@ function MyApp({ Component, pageProps }) {
         <Inner>
           <Component {...pageProps} />
         </Inner>
-        <Footer/>
+        <Footer />
       </ThemeProvider>
     </>
   );
