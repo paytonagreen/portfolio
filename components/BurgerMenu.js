@@ -13,7 +13,7 @@ const BurgerMenu = ({ open, toggler, setToggler }) => {
         </li>
         <li>
           <button onClick={() => setToggler(!toggler)}>
-            <Link href="/work">WORK</Link>
+            <Link href="/blog">BLOG</Link>
           </button>
         </li>
         <li>

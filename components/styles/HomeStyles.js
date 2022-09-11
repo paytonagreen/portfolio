@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const HomeStyles = styled.div`
-  min-height: 100vh;
-  padding: 2rem;
+  min-height: 80vh;
+  padding: 1rem;
   position: absolute;
   h2 {
     padding: 0 1rem;
@@ -37,7 +37,7 @@ const HomeStyles = styled.div`
     height: 100%;
     img {
       border-radius: 40%;
-      height: 40vh;
+      height: 60vh;
       @media (max-width: 700px) {
         margin-bottom: 80px;
       }

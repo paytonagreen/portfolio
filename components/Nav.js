@@ -10,13 +10,13 @@ function Nav() {
       <h1>Payton Green</h1>
       <ul>
         <li className={router.pathname == '/' ? 'active' : ''}>
-          <Link href='/'>About</Link>
+          <Link href='/'>ABOUT</Link>
         </li>
         <li className={router.pathname == '/work' ? 'active' : ''}>
-          <Link href='/work'>Work</Link>
+          <Link href='/blog'>BLOG</Link>
         </li>
         <li className={router.pathname == '/contact' ? 'active' : ''}>
-          <Link href='/contact'>Contact</Link>
+          <Link href='/contact'>CONTACT</Link>
         </li>
       </ul>
     </NavStyles>

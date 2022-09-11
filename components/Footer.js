@@ -2,22 +2,18 @@ import React from "react";
 
 import FooterStyles from "./styles/FooterStyles";
 
-import github from "../public/img/PNG/actualgithub.png";
-import linkedin from "../public/img/PNG/linkedin.png";
-import email from "../public/img/PNG/email.png";
-
 const Footer = () => {
   return (
     <FooterStyles>
       <div className="content">
         <a target="blank" href="https://github.com/paytonagreen">
-          <img src={github} alt="" />
+          <img src="/img/png/actualgithub.png" alt="GitHub Profile" />
         </a>
         <a target="blank" href="mailto: paytonagreen@gmail.com">
-          <img src={email} alt="" />
+          <img src="/img/PNG/linkedin.png" alt="LinkedIn" />
         </a>
         <a href="https://linkedin.com/in/paytonagreen" target="blank">
-          <img src={linkedin} alt="" />
+          <img src="/img/PNG/email.png" alt="Email" />
         </a>
       </div>
     </FooterStyles>
